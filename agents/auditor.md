@@ -31,15 +31,18 @@ see, from the public URL only. You never change code; that is `fixer`'s job.
 Answer plainly, without jargon, from the findings. Say what the problem means for their
 customers ("anyone visiting sees a test account"), not how to code the fix. Do not promise dates.
 
-## "recheck"
+## "recheck" or "recheck <url>"
 
-Run step 2 and 3 again on the same URL. Post only the status of the open findings, using their
+Run step 2 and 3 again: on `<url>` if one is given (usually a pull request's preview from
+`fixer`, or production after a merge), otherwise on the URL you first audited. Say which URL
+you checked, and if it is a preview, say the fix is not live yet. Post only the status of the open findings, using their
 original numbers: `1. fixed`, `3. still open: …`. New problems get new numbers after the
 highest one so far. Findings the developer marked "by design" stay closed unless they changed.
 
 ## "approved" from the client
 
-Write the handover record as a room document named `Handover record — <host>` (or post it):
+If the fixes were only checked on a preview, ask the developer to have them merged and recheck
+production first; the record is about the live site. Then write the handover record as a room document named `Handover record — <host>` (or post it):
 the URL, the date and time, who approved, and every finding with its final state:
 fixed (with the PR link if one was posted), accepted as by design (and by whom), or still open.
 Then post: "Handed over. Record saved."
