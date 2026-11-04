@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tidewell Physio — Book a physiotherapy session online</title>
+  <meta name="description" content="Tidewell Physio: sports and back-pain physiotherapy. Book a session online in under a minute.">
+  <meta property="og:title" content="Tidewell Physio">
+  <meta property="og:description" content="Book a physiotherapy session online.">
+  <meta property="og:image" content="assets/og.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="logo" href="index.html">Tide<span>well</span></a>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="dashboard.html">My bookings</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <div>
+        <h1>Move without pain again.</h1>
+        <p>Sports injuries, back pain and post-surgery rehab, treated by chartered physiotherapists. Book online and see someone this week.</p>
+        <div class="actions">
+          <a class="btn" href="#book" id="book-btn">Book a session</a>
+          <a class="btn ghost" href="#services">See services</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Next available slots">
+        <h3>Next available</h3>
+        <div id="slots">
+          <div class="slot"><strong>Thu 6 Nov</strong> 10:30 · Dr. Amara Okafor</div>
+          <div class="slot"><strong>Thu 6 Nov</strong> 15:00 · Leo Brandt</div>
+          <div class="slot"><strong>Fri 7 Nov</strong> 09:00 · Dr. Amara Okafor</div>
+        </div>
+      </aside>
+    </div>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>Services</h2>
+        <div class="grid">
+          <div class="card"><h3>Sports injury</h3><p>Assessment and a return-to-play plan for sprains, strains and overuse injuries.</p><p class="price">From $65</p></div>
+          <div class="card"><h3>Back &amp; neck pain</h3><p>Hands-on treatment and an exercise programme you can do at home.</p><p class="price">From $60</p></div>
+          <div class="card"><h3>Post-surgery rehab</h3><p>Structured recovery after knee, hip or shoulder surgery, with your surgeon kept in the loop.</p><p class="price">From $75</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>Our story</h2>
+        <p>Tidewell opened in 2019 as a two-room clinic by the harbour. We still keep appointments to 45 minutes, so every session has time for treatment and a plan you can follow at home.</p>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <div class="wrap">
+        <h2>Team</h2>
+        <div class="grid">
+          <div class="card"><div class="avatar">AO</div><div><strong>Dr. Amara Okafor</strong><br><small>Clinical lead · sports injuries</small></div></div>
+          <div class="card"><div class="avatar">LB</div><div><strong>Leo Brandt</strong><br><small>Physiotherapist · back &amp; neck</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="book">
+      <div class="wrap">
+        <h2>Book a session</h2>
+        <p>Pick a slot above or call us on (555) 014-2290. Online booking confirms instantly.</p>
+        <button class="btn" id="confirm-btn" type="button">Check availability</button>
+        <p id="book-status" class="who" role="status"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Tidewell Physio · 12 Harbour Row</span>
+      <span><a href="pricing.html">Pricing</a><a href="#team">Team</a><a href="dashboard.html">My bookings</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

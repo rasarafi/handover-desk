@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Untitled</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="logo" href="index.html">Tide<span>well</span></a>
+    <ul>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="dashboard.html">My bookings</a></li>
+    </ul>
+  </header>
+
+  <main class="wrap">
+    <div class="dash-head">
+      <h1>My bookings</h1>
+      <span class="who">Signed in as <strong>test@test.com</strong></span>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b id="stat-upcoming">0</b><span>Upcoming sessions</span></div>
+      <div class="stat"><b id="stat-done">0</b><span>Completed</span></div>
+      <div class="stat"><b id="stat-plan">—</b><span>Exercise plan</span></div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Date</th><th>Time</th><th>Physiotherapist</th><th>Service</th><th>Status</th></tr>
+        </thead>
+        <tbody id="bookings"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Tidewell Physio · 12 Harbour Row</span>
+      <span><a href="pricing.html">Pricing</a><a href="index.html">Home</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
