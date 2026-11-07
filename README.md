@@ -8,7 +8,7 @@ Built for the **Flip the Switch** hackathon (WeMakeDevs × Switch), Track 01: Bu
 
 - Demo target (a fictional clinic site with planted problems): https://handover-desk-demo.vercel.app/,
   repo [`rasarafi/handover-desk-demo`](https://github.com/rasarafi/handover-desk-demo)
-- Demo video: _link added on submission_
+- Demo video: https://youtu.be/hloYjnoBy_U
 
 ## The problem
 
